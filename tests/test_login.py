@@ -64,6 +64,7 @@ def test_invalid_user_login(page):
 def test_valid_user_login(page):
     """
     Added the code from test_branch
+    Added the code from master branch
     :param page:
     :return:
     """
