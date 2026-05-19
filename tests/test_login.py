@@ -62,6 +62,11 @@ def test_invalid_user_login(page):
 
 # @pytest.mark.sanity
 def test_valid_user_login(page):
+    """
+    Added the code from test_branch
+    :param page:
+    :return:
+    """
     home_page = HomePage(page)
     login_page = LoginPage(page)
     my_account_page = MyAccountPage(page)
